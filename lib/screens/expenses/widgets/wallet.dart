@@ -25,7 +25,7 @@ class Wallet extends StatelessWidget {
               children: [
                 Text(
                   textAlign: TextAlign.center,
-                  'I have ${income - outcome}JD',
+                  'Balance ${income - outcome}JD',
                   style: const TextStyle(
                       fontSize: 15, fontWeight: FontWeight.bold),
                 ),
